@@ -1,0 +1,7 @@
+#!/bin/bash
+for file in /$(pwd)/../../benchmarks/original/*.bench; do
+	filename=$(basename "$file")
+	filenameonly="${filename%.*}"
+	echo "$filename" >> enc25.txt
+	./sld ../../benchmarks/dac12/"$filenameonly"_enc25.bench ../../benchmarks/original/$filename
+done
