@@ -1,4 +1,4 @@
-# Double DIP  
+# Introduction
 
 Logic decryption tool for the paper: Double DIP: Re-Evaluating Security of Logic Encryption Algorithms
 
